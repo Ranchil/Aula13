@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap');
+body{
+	background-color:black;
+}
+p{
+	text-align: center;
+	font-family: "Lucida Handwriting",cursive;
+	font-size: 22pt;1.0em;
+	color: #40DEC5;
+	line-height: 2%;
+}
+h1{
+	text-align: center;
+	font-family: "Algerian",helvetica;
+	font-size: 22pt;
+	letter-spacing: 3%;
+	text-decoration: underline;
+	text-transform: uppercase;
+	color: #8ADEB4;
+	text-shadow:10px 10px 6px black; /* x y espessura cor */
+}
+a{
+	text-align: center;
+    text-decoration: none;
+    color:white;
+    font-size: 16pt;
+    background-color: #CD00EA;
+}
+a:hover{
+    background-color: #641EEB;
+}
+img{
+	width:50vw ;
+	height:50vh;
+	margin-left:0vw;
+	opacity: 0.9;
+}
+body{
+	background:radial-gradient(white, black);
+	/*
+	width:100vw;
+	height:100vh;
+	ou
+	background-size:100vw 100vh
+	*/
+}
+section{
+	display: flex;
+	justify-content: center;
+}
+section.cabecalho{
+	width: 60vw;
+	height: 20vh;
+	border: 2px ridge darkblue; /*
+    solid(normal) dashed(tracejado)
+    dotted(pontilhado) ridge/groove(contraste/efeito)
+    inset/outset(efeito 3d)*/
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-top: 5vh;
+}
+section.cabecalho h1{
+	font-size: 2em;
+	padding-top: 3%;
+    font-family: "Roboto", sans-serif;
+}
+section.conteudo{
+	width: 60vw;
+	height: 45vh;
+	margin-left: 20vw;
+	border: 2px solid red;
+	margin-top: 5vh;
+	background-color: black;
+}
+#texto{
+	width: 45%;
+	height: 100%%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	/*border:2px solid yellow;*/
+    text-align: center;
+}
+#texto p{
+	font-family: "Big Shoulders", sans-serif;
+	color:chocolate;
+	font-size: 0.9em;
+}
+#imagem{
+	margin-left: 10%;
+	width: 45%;
+	height: 100%;
+	border: 2px solid red;
+}
+#imagem img{
+	width: auto;
+	height: auto;
+}
